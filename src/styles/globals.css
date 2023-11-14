@@ -32,25 +32,3 @@ a.navbar-menu {
     width: 100%
   }
 }
-
-
-
-#mainDiv {
-display: flex;
-}
-#mainDiv div {
-width: 70px;
-height: 70px;
-}
-div#div1 {
-order: 2;
-}
-div#div2 {
-order: 4;
-}
-div#div3 {
-order: 3;
-}
-div#div4 {
-order: 1;
-}

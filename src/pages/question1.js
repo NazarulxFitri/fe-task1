@@ -42,6 +42,12 @@ export default function Home() {
         </button>
       </div>
       <div style={{ marginTop: "24px" }}>Total: {displayAns && totalSum}</div>
+
+      <fieldset style={{height: "100px", width: "200px"}}>
+      <legend>
+Coding is Fun
+</legend>
+      </fieldset>
     </div>
   );
 }

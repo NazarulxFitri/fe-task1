@@ -9,3 +9,26 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.navbar-menu {
+  display: inline-block;
+  margin: 16px;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-section {
+    flex-direction: column-reverse;
+  }
+  .navbar-menu-listing {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-search {
+    width: 100%
+  }
+}
